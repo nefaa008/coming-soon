@@ -1,0 +1,1222 @@
+/* line 17, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Program Files (x86)/Scout/vendor/gems/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 4, ../sass/app.scss */
+body {
+  font-family: Open sans;
+ 
+    background: url(../img/covers/cov3.png) no-repeat top center fixed;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+div.psr {
+	height:50px;
+}
+
+
+
+.mng {
+	
+	margin-left: 103%;
+}
+
+.keep {
+	
+	font-size:13px;
+}
+
+
+/**********************************
+************HEADER*****************
+**********************************/
+/* line 14, ../sass/app.scss */
+header {
+ 
+}
+
+footer {
+  color: #FFF;
+  z-index:999;
+  position:fixed;
+   left:9%;
+   right:10%;
+   bottom:0px;
+   height:18%;
+  
+  max-width: 100%;
+}
+
+
+/* line 17, ../sass/app.scss */
+header .bg-cover {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  height: 100%;
+  
+}
+
+/* line 28, ../sass/app.scss */
+.header-content {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 7%;
+  z-index: 2;
+  text-align: center;
+  font-family: century Gothic, AppleGothic, sans-serif;
+  color: #FFF;
+ 
+}
+/* line 39, ../sass/app.scss */
+.header-content h1 {
+ /* text-transform: uppercase;*/
+  letter-spacing: 2px;
+  font-size: 40px;
+  /*font-weight: 600;*/
+}
+/* line 47, ../sass/app.scss */
+.header-content p {
+  line-height: 1.5em;
+  font-size: 18px;
+  font-weight: 300;
+  padding: 50px 100px;
+}
+
+/* line 57, ../sass/app.scss */
+.header-btns {
+  margin: 10px 0;
+}
+
+/* line 60, ../sass/app.scss */
+.scroll-down {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+/**********************************
+************, NAVBAR **************
+**********************************/
+/* line 73, ../sass/app.scss */
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+
+/**********************************
+*******, STYLES GENERIQUES ********
+**********************************/
+/* line 122, ../sass/app.scss */
+.btn {
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+/* line 134, ../sass/app.scss */
+.btn-transparent {
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+/* line 137, ../sass/app.scss */
+.btn-transparent:hover {
+  background: #FFF;
+  color: #000;
+}
+
+/* line 142, ../sass/app.scss */
+.btn-yellow {
+  background: #fec503;
+  color: #000;
+  border: 1px solid #fec503;
+}
+/* line 147, ../sass/app.scss */
+.btn-yellow:hover {
+  background: transparent;
+  color: #FFF;
+}
+
+/* line 152, ../sass/app.scss */
+.container {
+  max-width: 1190px;
+  margin: auto;
+}
+
+/* line 157, ../sass/app.scss */
+.content {
+  height: 1000px;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+/** ajout */
+
+.languages {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    background-color: #eeeeee;
+    width: 50px;
+    border: 1px solid #1D69AD;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    top: 28px;
+    left: -11px;
+}
+#language-switcher {
+  
+    height: 30px;
+}
+
+#language-switcher .fa {
+    color: #ffffff;
+    cursor: pointer;
+    height: 32px;
+    line-height: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+.languages .flag {
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: 2px solid #eeeeee;
+}
+
+
+.current-language {
+    display: inline-block;
+    border: 2px solid #ffffff;
+    margin: 0 11px;
+    position: relative;
+}
+.current-language .languages {
+    display: none;
+}
+.current-language:hover .languages {
+    display: inline;
+}
+
+.en {
+    background-image: url('../img/United-Kingdom.png');
+}
+.fr {
+    background-image: url('../img/France.png');
+}
+
+.ar {
+    background-image: url('../img/United-Arab-Emirates.png');                                                                                 
+}
+
+
+.flag {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-position: center center;
+    background-repeat: no-repeat;
+  
+    display: block;
+    cursor: pointer;
+}
+
+
+.sp-right {
+    direction: rtl;
+}
+
+
+
+
+label.min {
+    font-size: 27px; 
+    font-family: sans-serif;  
+}
+
+
+ 
+
+.form-group label{
+    font-size: 25px;
+	font-weight: 500;
+}
+
+
+.form-group input {
+	
+   background: transparent;
+    border-bottom: 5px  dotted white;
+	border-right:none;
+	border-top:none;
+	border-left:none;
+	 font-size:25px;
+	 padding: 0px 0px;
+	 width:20%;
+	 
+	
+}
+
+.from-group input.placeholder {
+	
+	
+}
+
+input#username {
+    color: white;
+	text-align:center
+}
+
+input#mailsms {
+    color: white;
+	text-align:center;
+	
+	
+}
+
+.pos {
+	
+	margin-left: 105%;
+}
+
+
+
+.form-group select {
+	
+     border: none;
+    background-color: blue ;
+    background: transparent ;
+   
+	 font-size:25px;
+	
+	 
+}
+
+
+
+.form-group option {
+      
+  background-color: #10ce6a ;
+  border-bottom: 5px  solid white;
+  font-size:25px;
+   
+   
+}
+
+
+
+input[type=submit] {
+    border-radius: 10px;
+    padding: 4px 20px;
+    margin: 3px 4px;
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    cursor: pointer;
+    background: #2ecc71;
+   
+    
+    } 
+
+
+
+.fa {
+
+  padding: 10px;
+  font-size: 45px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 1.4px;
+  border-radius: 15%;
+   
+}
+
+
+
+.crt {
+	margin: 0px 25px;
+	
+	width: 20px;
+}
+
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-facebook.social {
+ 
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+     background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+
+#bottomm {
+ 
+  bottom: 5%;
+  position: fixed;
+  width: 100%;
+ 
+}
+
+
+
+
+/* Fin ajout  */
+
+
+@media only screen and (max-width: 768px) {
+  
+  
+  header {
+  background: url(../img/covers/cov3.png) no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+ 
+}
+/* line 17, ../sass/app.scss */
+header .bg-cover {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  height: 100%;
+  
+}
+
+/* line 28, ../sass/app.scss */
+.header-content {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 2%;
+  z-index: 0;
+  text-align: center;
+  font-family: century Gothic, AppleGothic, sans-serif;
+  color: #FFF;
+}
+/* line 39, ../sass/app.scss */
+.header-content h1 {
+ /* text-transform: uppercase;*/
+  letter-spacing: 2px;
+  font-size: 20px;
+  /*font-weight: 600;*/
+}
+
+
+/* line 57, ../sass/app.scss */
+.header-btns {
+  margin: 10px 0;
+}
+
+/* line 60, ../sass/app.scss */
+.scroll-down {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+/**********************************
+************, NAVBAR **************
+**********************************/
+/* line 73, ../sass/app.scss */
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+
+/**********************************
+*******, STYLES GENERIQUES ********
+**********************************/
+/* line 122, ../sass/app.scss */
+.btn {
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+/* line 134, ../sass/app.scss */
+.btn-transparent {
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+/* line 137, ../sass/app.scss */
+.btn-transparent:hover {
+  background: #FFF;
+  color: #000;
+}
+
+/* line 142, ../sass/app.scss */
+.btn-yellow {
+  background: #fec503;
+  color: #000;
+  border: 1px solid #fec503;
+}
+/* line 147, ../sass/app.scss */
+.btn-yellow:hover {
+  background: transparent;
+  color: #FFF;
+}
+
+/* line 152, ../sass/app.scss */
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+/* line 157, ../sass/app.scss */
+.content {
+  height: 1000px;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+/** ajout */
+
+.mng {
+	
+	margin-left: 90%;
+}
+
+
+
+.languages {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    background-color: #eeeeee;
+    width: 50px;
+    border: 1px solid #1D69AD;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    
+    left: -11px;
+}
+#language-switcher {
+  
+    height: 30px;
+}
+
+#language-switcher .fa {
+    color: #ffffff;
+    cursor: pointer;
+    height: 32px;
+    line-height: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+.languages .flag {
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: 2px solid #eeeeee;
+}
+
+
+.current-language {
+    display: inline-block;
+    border: 2px solid #ffffff;
+    margin: 0 11px;
+    position: relative;
+}
+.current-language .languages {
+    display: none;
+}
+.current-language:hover .languages {
+    display: inline;
+}
+
+
+
+
+.flag {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-position: center center;
+    background-repeat: no-repeat;   
+    display: block;
+    cursor: pointer;
+}
+
+
+.sp-right {
+    direction: rtl;
+}
+
+
+
+
+
+ 
+
+.form-group label{
+    font-size: 20px;
+	font-weight: 500;
+}
+
+
+.form-group input {
+	
+   background: transparent;
+    border-bottom: 5px  dotted white;
+	 font-size:20px;
+	 padding: 0px 0px;
+	 width:100%;
+	
+}
+
+input#username {
+    color: white;
+}
+
+input#mailsms {
+    color: white;
+}
+
+
+
+.form-group select {
+	
+     border: none;
+    background-color: blue ;
+    background: transparent ;
+   
+	 font-size:20px;
+	
+	 
+}
+
+label.min {
+    font-size: 20px; 
+    font-family: sans-serif;  
+}
+
+
+
+.form-group option {
+      
+  background-color: #10ce6a ;
+  border-bottom: 5px  solid white;
+  font-size:20px;
+   
+   
+}
+
+
+
+input[type=submit] {
+    border-radius: 5px;
+    padding: 7px 23px;
+    margin: 3px 4px;
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    background: #2ecc71;
+   
+    
+    } 
+
+
+
+.fa {
+
+  padding: 10px;
+  font-size: 45px;
+  width: 33px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 1.4px;
+  border-radius: 15%;
+   
+}
+
+
+
+.crt {
+	margin: 0px 25px;
+	
+	width: 20px;
+}
+
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-facebook.social {
+ 
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+     background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  c
+
+
+#bottomm {
+ 
+  bottom: 5%;
+  position: fixed;
+  width: 100%;
+ 
+}
+
+footer {
+  color: #FFF;
+  z-index:999;
+  position:fixed;
+   left:9%;
+   right:10%;
+   bottom:0px;
+   height:18%;
+  
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 450px) {
+  
+  
+  header {
+  background: url(../img/covers/cov3.png) no-repeat top center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  
+}
+/* line 17, ../sass/app.scss */
+header .bg-cover {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+  height: 100%;
+  
+}
+
+/* line 28, ../sass/app.scss */
+.header-content {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 2%;
+  z-index: 0;
+  text-align: center;
+  font-family: century Gothic, AppleGothic, sans-serif;
+  color: #FFF;
+}
+/* line 39, ../sass/app.scss */
+.header-content h1 {
+ /* text-transform: uppercase;*/
+  letter-spacing: 2px;
+  font-size: 15px;
+  /*font-weight: 600;*/
+}
+
+
+/* line 57, ../sass/app.scss */
+.header-btns {
+  margin: 7px 0;
+}
+
+/* line 60, ../sass/app.scss */
+.scroll-down {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+}
+
+/**********************************
+************, NAVBAR **************
+**********************************/
+/* line 73, ../sass/app.scss */
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 3;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+
+/**********************************
+*******, STYLES GENERIQUES ********
+**********************************/
+/* line 122, ../sass/app.scss */
+.btn {
+  text-decoration: none;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 0 10px;
+  -webkit-transition-property: all;
+  -moz-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -webkit-transition-duration: 0.8s;
+  -moz-transition-duration: 0.8s;
+  -o-transition-duration: 0.8s;
+  transition-duration: 0.8s;
+}
+
+/* line 134, ../sass/app.scss */
+.btn-transparent {
+  border: 1px solid #FFF;
+  color: #FFF;
+}
+/* line 137, ../sass/app.scss */
+.btn-transparent:hover {
+  background: #FFF;
+  color: #000;
+}
+
+/* line 142, ../sass/app.scss */
+.btn-yellow {
+  background: #fec503;
+  color: #000;
+  border: 1px solid #fec503;
+}
+/* line 147, ../sass/app.scss */
+.btn-yellow:hover {
+  background: transparent;
+  color: #FFF;
+}
+
+/* line 152, ../sass/app.scss */
+.container {
+  max-width: 1170px;
+  margin: auto;
+}
+
+/* line 157, ../sass/app.scss */
+.content {
+  height: 1000px;
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+
+/** ajout */
+
+.mng {
+	
+	margin-left: 90%;
+}
+
+label.min {
+    font-size: 10px; 
+    font-family: sans-serif;  
+}
+
+
+.languages {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    background-color: #eeeeee;
+    width: 50px;
+    border: 1px solid #1D69AD;
+    text-align: center;
+    padding: 10px 10px 0px 10px;
+    
+    left: -11px;
+}
+#language-switcher {
+  
+    height: 30px;
+}
+
+#language-switcher .fa {
+    color: #ffffff;
+    cursor: pointer;
+    height: 32px;
+    line-height: 0px;
+    display: inline-block;
+    vertical-align: top;
+}
+.languages .flag {
+    cursor: pointer;
+    margin-bottom: 10px;
+    border: 2px solid #eeeeee;
+}
+
+
+.current-language {
+    display: inline-block;
+    border: 2px solid #ffffff;
+    margin: 0 11px;
+    position: relative;
+}
+.current-language .languages {
+    display: none;
+}
+.current-language:hover .languages {
+    display: inline;
+}
+
+
+
+
+.flag {
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    background-position: center center;
+    background-repeat: no-repeat;   
+    display: block;
+    cursor: pointer;
+}
+
+
+.sp-right {
+    direction: rtl;
+}
+
+
+
+
+
+ 
+
+.form-group label{
+    font-size: 15px;
+	font-weight: 300;
+}
+
+
+.form-group input {
+	
+   background: transparent;
+    border-bottom: 5px  dotted white;
+	 font-size:15px;
+	 padding: 0px 0px;
+	 width:100%;
+	
+}
+
+input#username {
+    color: white;
+}
+
+input#mailsms {
+    color: white;
+}
+
+
+
+.form-group select {
+	
+     border: none;
+    background-color: blue ;
+    background: transparent ;
+   
+	 font-size:15px;
+	
+	 
+}
+
+
+
+.form-group option {
+      
+  background-color: #10ce6a ;
+  border-bottom: 5px  solid white;
+  font-size:15px;
+   
+   
+}
+
+
+
+input[type=submit] {
+    border-radius: 3px;
+    padding: 5px 19px;
+    margin: 2px 3px;
+
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
+    cursor: pointer;
+    background: #2ecc71;
+   
+    
+    } 
+
+
+
+.fa {
+
+  padding: 10px;
+  font-size: 45px;
+  width: 33px;
+  text-align: center;
+  text-decoration: none;
+  margin: 10px 1.4px;
+  border-radius: 15%;
+   
+}
+
+
+
+.crt {
+	margin: 0px 25px;
+	
+	width: 20px;
+}
+
+
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa-facebook.social {
+ 
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+     background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  c
+
+
+#bottomm {
+ 
+  bottom: 5%;
+  position: fixed;
+  width: 100%;
+ 
+}
+
+footer {
+  color: #FFF;
+  z-index:999;
+  position:fixed;
+   left:9%;
+   right:10%;
+   bottom:0px;
+   height:18%;
+  
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+}
+

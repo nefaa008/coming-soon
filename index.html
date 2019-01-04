@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>E-electricity</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	 <meta name="viewport" content="width=device-width, initial-scale=1">
+	 <link rel="icon" type="image/jpg" href="src/img/e.jpg" />
+
+	<link rel="stylesheet" type="text/css" href="src/css/app.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script type="text/javascript" src='src/js/app.js'></script>	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="src/css/jquery.toast.css">	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>  
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.1/angular.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/angular-translate/2.13.1/angular-translate.js"></script>
+	<script type="text/javascript" src='src/js/translate.js'></script>
+	<script src="src/js/jquery.toast.js"></script>
+	
+	<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-92090119-1', 'auto');
+  ga('send', 'pageview');
+
+	</script>
+	
+</head>
+<body ng-app="app" ng-controller="Ctrl">
+
+   <div  class="scroll">       
+   
+	<header id="cover">
+		<div class="bg-cover" >
+			<div class="header-content container" id="header-content">			
+			<div class="container">
+			<div class="pull-right" id="language-switcher">
+					<span id="monspan" class="current-language flag en">
+					<ul class="languages" id="uls" name="langue">
+						<li id="lien" name="lien" ng-click="changeLanguage('en')" class="flag en"></li>
+						<li id="lifr" name="lifr" ng-click="changeLanguage('fr')" class="flag fr"></li>
+						<li id="liar" name="liar" ng-click="changeLanguage('ar')" class="flag ar"></li>			
+   				</ul>
+				
+				<i class=" crt fa fa-caret-down" style="font-size:24px"></i>
+				</span>	
+					
+			</div>	
+		
+				<br ><br >
+				<br class="hidden-xs hidden-md hidden-sm"><br class="hidden-xs hidden-md hidden-sm"><br class="hidden-xs hidden-md hidden-sm">		
+			<br><br class="hidden-xs hidden-md hidden-sm"><br class="hidden-xs hidden-md hidden-sm">		
+			<div id="hel" class="intro">
+				<h1> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{'HELLOPRO' | translate}} &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </h1>
+				<h1>{{'HELLOWORLD' | translate}}<label class="min">{{'SOON' | translate}}</label></h1> 		    		
+			</div>
+			
+			<br class="hidden-xs hidden-md hidden-sm"><br class="hidden-xs hidden-md hidden-sm">	
+			
+		<div id="nfs" >			
+			<form class="form-inline" id="monform">
+					<input type="hidden" value="en" name="lan" id="lan"/>
+					<div class="form-group">
+						<label for="text">{{'HI' | translate}}</label>
+						<input type="text" class="form-control" id="username" name="username" placeholder="{{'PLACEHOLDERNAME' | translate}}" required oninvalid="this.setCustomValidity('Required field')" oninput="setCustomValidity('')">
+					</div>
+					<div class="form-group">
+						<label for="trollSelect">{{'SEND' | translate}}</label>
+						<select id="trollSelect" name="trollSelect"  onchange="setchange()"  >
+						<option value="{{'SELECTMAIL' | translate}}" class="option">{{'SELECTMAIL' | translate}}</option>
+						<option value="{{'SELECTSMS' | translate}}" class="option">{{'SELECTSMS' | translate}}</option>  
+						</select>
+					</div>	
+					<div class="form-group">
+						<label for="text">{{'AT' | translate}}</label>
+						<input type="text" class="form-control" id="mailsms" name="mailsms" placeholder="{{'PLACEHOLDERMAIL' | translate}}" required onfocus="smsfn()" oninvalid="this.setCustomValidity('Required field')" oninput="setCustomValidity('')">
+					</div>
+						<br class="hidden-xs hidden-md hidden-sm">	
+					<div class="form-group">	 
+						<label for="trollSelect">{{'LAUNCH' | translate}}</label>	 
+					</div>	 
+                    <br class="hidden-xs"><br class="hidden-xs">
+					<input type="submit" id="btnShow" name="btnsubmit" value="{{'UPDATE' | translate}}" class="btn-success-primary">
+			</form>		
+		</div>		
+		 <br> 	
+	
+	
+		</div>	
+		</div>
+		</div>
+</header>
+
+	<footer>
+	
+		<div  id="face" style="text-align: left;">
+				<a href="http://www.facebook.com" target="_blank" class="fa fa-facebook"></a>
+				<a href="http://www.twitter.com" target="_blank" class="fa fa-twitter"></a>
+				<a href="http://www.youtube.com" target="_blank" class="fa fa-youtube"></a>
+				<a href="http://plus.google.com" target="_blank" class="fa fa-google"></a>
+				<a href="https://www.linkedin.com" target="_blank" class="fa fa-linkedin"></a>
+			
+</div>
+			   
+			
+			   
+				<div  class ="pull-left">
+				
+			{{'keepin' | translate}}
+			    </div> 
+			
+			<div class ="pull-right">
+				{{'copyright' | translate}}
+		</div>
+		
+	
+			
+		</footer>
+
+<script type="text/javascript" src="src/js/soont.js"></script>
+
+ </div>
+</body>
+</html>
